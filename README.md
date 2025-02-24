@@ -1,3 +1,12 @@
+Staking a token into a contract, and rewards a token
+
+forge anvil to start up local
+
+run script for mock
+
+forge script script/Farm.s.sol:FarmScript --rpc-url http://localhost:8545 --broadcast
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
