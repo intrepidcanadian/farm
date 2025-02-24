@@ -1,8 +1,12 @@
 Staking a token into a contract, and rewards a token
 
+forge clean 
+
+forge build
+
 forge anvil to start up local
 
-run script for mock
+run script for mock - open new terminal for this
 
 forge script script/Farm.s.sol:FarmScript --rpc-url http://localhost:8545 --broadcast
 
